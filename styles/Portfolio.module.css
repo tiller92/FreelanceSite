@@ -1,0 +1,16 @@
+.home {
+    position: relative;
+    background-color: rgb(139 92 246);
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (min-width: 640px) {
+    .home {
+        position: absolute;
+        background-color: rgb(139, 92, 246);
+        height: 100vh;
+        width: 100vw;
+        /* clip-path: polygon(0 0, 100% 0, 100% 0, 100% 49%, 48% 49%, 0 100%, 0 100%); */
+    }
+}
