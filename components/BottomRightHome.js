@@ -10,9 +10,8 @@ import {SiFlask} from 'react-icons/si'
 import {BsBootstrap} from 'react-icons/bs'
 import {SiTailwindcss} from 'react-icons/si'
 import {SiVercel} from 'react-icons/si'
-import style from '../styles/BottomRightHome.module.css'
 import { useEffect, useState } from 'react'
-import FreeLanceinfo from '../components/FreeLanceInfo'
+
 
 export default function Btmr(){
   const [iconSize,setSize] = useState(50)
@@ -65,12 +64,6 @@ sm:flex-row
 <div></div>
 <div></div>
 
-{/* <FreeLanceinfo />
-<div></div>
-<div></div>
-<div></div>
-  */}
-
 
     </div>
     
@@ -79,22 +72,3 @@ sm:flex-row
   )
 }
 
-{/* <div className='
-hidden
- sm:relative
- sm:flex sm:flex-col       
-   sm:visible '>
-
-
-<DiHeroku color='white' className='mx-2' size={iconSize}  />
-<SiPrisma color='white' className='mx-2' size={iconSize}  />
-
-
-
-<SiTailwindcss color='white' className='mx-2' size={iconSize}  />
-<BsBootstrap color='white' className='mx-2' size={iconSize}  />
-
-
-<SiFlask color='white' className='mx-2' size={iconSize}  />
-<SiNodedotjs color='white' className='mx-2'  size={iconSize} />
-</div> */}
