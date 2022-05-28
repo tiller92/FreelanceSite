@@ -10,7 +10,6 @@ import {SiFlask} from 'react-icons/si'
 import {BsBootstrap} from 'react-icons/bs'
 import {SiTailwindcss} from 'react-icons/si'
 import {SiVercel} from 'react-icons/si'
-import style from '../styles/BottomRightHome.module.css'
 import { useEffect, useState } from 'react'
 
 export default function Sbtmr(){

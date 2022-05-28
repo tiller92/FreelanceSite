@@ -1,7 +1,6 @@
 import Image from "next/image"
 import {AiFillGithub} from "react-icons/ai"
 import {AiOutlineLinkedin} from "react-icons/ai"
-import BottomRightHome from '../components/BottomRightHome'
 import { useRouter } from "next/router"
 
 export default function Intro(){
