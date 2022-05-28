@@ -79,21 +79,3 @@ export default function Ppage(){
   )
 }
 
-
-{/* <div className="sm:grid sm:grid-cols-3">
-<div className="sm:flex sm:justify-center sm:h-64 sm:w-96 m-5 relative">
-    <Image 
-   className="rounded-xl"
-  // width={200}
-  // height={200}
-    src={wealthTrac} />
-</div>
-
-<div></div>
-<div>
-<p className="sm:text-white sm:text-2xl sm:justify-center  sm:flex ">Next JS with PSQL databas</p>
-</div>
-
-
-
-</div> */}
