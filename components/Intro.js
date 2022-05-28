@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 import {AiFillGithub} from "react-icons/ai"
 import {AiOutlineLinkedin} from "react-icons/ai"
 import { useRouter } from "next/router"
