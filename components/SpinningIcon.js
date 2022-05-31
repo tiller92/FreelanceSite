@@ -41,7 +41,7 @@ export default function SpinningIcon(){
  if(count == 0){
    return (
      <>
-     <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly  md:flex md:w-1/2 md: justify-evenly lg:flex lg:w-1/2  xl:flex xl:top-10  xl:w-1/2 xl:justify-evenly  xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+     <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:top-10 sm:justify-evenly md:relative md:top-20 md:flex md:w-1/2 md:justify-evenly lg:flex lg:w-1/2 lg:top-40 lg:relative  xl:flex xl:top-90  xl:w-1/2 xl:justify-evenly  xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
      
       '>
        <SiNextdotjs color='white' size={size}/>
@@ -52,7 +52,7 @@ export default function SpinningIcon(){
  if(count == 1){
   return (
     <>
-    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly md:flex md:w-1/2 md: justify-evenly lg:flex lg:w-1/2   xl:flex xl:top-10  xl:w-1/2 xl:justify-center  xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:top-10 sm:justify-evenly md:top-20 md:flex md:w-1/2 md:justify-evenly lg:flex lg:w-1/2 lg:top-40 lg:relative   xl:flex xl:top-90 xl:w-1/2 xl:justify-center  xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
     '>
       <IoLogoJavascript color='white' size={size}/>
     </div>
@@ -62,7 +62,7 @@ export default function SpinningIcon(){
 if(count == 2){
   return (
     <>
-    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly md:flex md:w-1/2 md: justify-evenly lg:flex lg:w-1/2   xl:flex xl:top-10  xl:w-1/2 xl:justify-center  xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:top-10 sm:justify-evenly md:flex md:top-20 md:w-1/2 md:justify-evenly lg:flex lg:w-1/2 lg:top-40 lg:relative   xl:flex xl:top-50  xl:w-1/2 xl:justify-center  xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
     '>
       <SiPrisma color='white' size={size}/>
     </div>
@@ -72,7 +72,7 @@ if(count == 2){
 if(count == 3){
   return (
     <>
-   <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly md:flex md:w-1/2 md: justify-evenly lg:flex lg:w-1/2    xl:flex xl:top-10 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+   <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:top-10 sm:justify-evenly md:flex md:w-1/2 md:top-20 md:justify-evenly lg:flex lg:w-1/2  lg:top-40 lg:relative   xl:flex xl:top-50 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
    '>
       <SiVercel color='white' size={size}/>
     </div>
@@ -82,7 +82,7 @@ if(count == 3){
 if(count == 4){
   return (
     <>
-    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly md:flex md:w-1/2 md: justify-evenly lg:flex  lg:w-1/2   xl:flex xl:top-10 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+    <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly sm:top-10 md:flex md:w-1/2 md:top-20 md:justify-evenly lg:flex  lg:w-1/2 lg:top-40 lg:relative   xl:flex xl:top-50 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
     '>
       <SiTailwindcss color='white' size={size}/>
     </div>
@@ -92,7 +92,7 @@ if(count == 4){
 if(count == 5){
   return (
     <>
-     <div className='sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:justify-evenly md:flex md:w-1/2 md: justify-evenly lg:flex lg:w-1/2    xl:flex xl:top-10 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-70 2xl:relative
+     <div className=' sm:flex sm:mx-5 sm:relative sm:w-1/2 sm:top-10 sm:justify-evenly md:flex md:w-1/2 md:top-20 md:justify-evenly lg:flex lg:w-1/2  lg:top-40 lg:relative   xl:flex xl:top-50 xl:w-1/2 xl:justify-center   xl:relative 2xl:flex 2xl:justify-center 2xl:top-90 2xl:relative
      '>
       <SiVercel color='white' size={size}/>
     </div>

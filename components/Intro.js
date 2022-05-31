@@ -2,6 +2,7 @@
 import {AiFillGithub} from "react-icons/ai"
 import {AiOutlineLinkedin} from "react-icons/ai"
 import { useRouter } from "next/router"
+import Link from "next/link"
 
 export default function Intro(){
   const router = useRouter()
@@ -26,16 +27,19 @@ export default function Intro(){
     "
     >Software Developer</h1>
     <div className="flex">
-    <AiFillGithub className="m-3" size={40} color="white"/>
+    <a href="https://github.com/tiller92" target='_blank'> <AiFillGithub className="m-3" size={40} color="white"/></a>
+  
     <AiOutlineLinkedin className="m-3" size={40} color="white"/>
+
     <button
-     onClick={()=>{router.push('/portfolio')}}
+    onClick={()=>{router.push('/portfolio')}}
      className="
      font-sans-apple-system
       text-purple-500
        bg-white rounded-full
        p-1 m-3 w-36"
      >Portfolio</button>
+  
      </div>
      <button
      onClick={()=>{console.log('route to next page')}}

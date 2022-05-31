@@ -17,7 +17,7 @@ export default function Home() {
     <SmallBottomRightHome className='sm:invisible' />
     </div>
     </div>
-    <div className=' sm:bg-stone-700 sm:h-screen'>
+    <div className='flex hidden sm:block sm:bg-stone-700 sm:h-screen'>
     <BottomRightHome />
     <SpinningIcon/>
     </div>
