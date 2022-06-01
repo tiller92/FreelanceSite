@@ -13,7 +13,7 @@ export default function Intro(){
   return (
 
     <>
-    <div className="m-3 transition-transform origin-bottom-left duration-300">
+    <div className=" transition-transform origin-bottom-left duration-300">
     <h1 className="
     text-white
     text-8xl
@@ -32,7 +32,7 @@ export default function Intro(){
     <div className="flex">
     <a href="https://github.com/tiller92" target='_blank' rel="noreferrer" > <AiFillGithub className="m-3" size={40} color="white"/></a>
   
-    <AiOutlineLinkedin className="m-3" size={40} color="white"/>
+    {/* <AiOutlineLinkedin className="m-3" size={40} color="white"/> */}
 
     <button
     onClick={()=>{router.push('/portfolio')}}
@@ -46,7 +46,6 @@ export default function Intro(){
      </div>
      
   <div onClick={()=>{
-    console.log(open)
     setOpen(!open)}}>
      <Contact open={open}/>
   </div>
