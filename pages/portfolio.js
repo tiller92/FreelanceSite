@@ -9,7 +9,7 @@ export default function Ppage(){
   const router = useRouter()
   return (
     <>
-  <div className="bg-indigo-400 min-h-screen">
+  <div className="bg-slate-800 min-h-screen">
     <div className="flex justify-center">
   <div className="w-2/4 h-full bg-slate-100 shadow-xl shadow-slate-300 min-h-screen ">
     <button className="relatvie m-5 sm:absolute" 
