@@ -31,7 +31,6 @@ export default function SpinningIcon(){
     const interval = setInterval(() => {
       setIcon(ICONS[count])
       setCount(count+= 1)
-      console.log('This will run every second!', count);
     }, 2000);
     return () => clearInterval(interval);
   }, [count]);

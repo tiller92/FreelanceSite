@@ -3,9 +3,12 @@ import {AiFillGithub} from "react-icons/ai"
 import {AiOutlineLinkedin} from "react-icons/ai"
 import { useRouter } from "next/router"
 import Link from "next/link"
+import { useState } from "react"
+import Contact  from "../components/Contact"
 
 export default function Intro(){
   const router = useRouter()
+  const [open, setOpen] = useState(false)
 
   return (
 
@@ -41,15 +44,12 @@ export default function Intro(){
      >Portfolio</button>
   
      </div>
-     <button
-     onClick={()=>{console.log('route to next page')}}
-     className="
-     font-sans-apple-system
-      text-purple-500
-       bg-white rounded-full
-       p-1 m-3 w-36"
-     >Contact</button>
-
+     
+  <div onClick={()=>{
+    console.log(open)
+    setOpen(!open)}}>
+     <Contact open={open}/>
+  </div>
      </div>
     
     </>
