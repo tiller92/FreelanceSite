@@ -22,16 +22,18 @@ export default function Ppage(){
   <div className="flex justify-center ">
   <div className="grid grid-cols-1 w-11/12">
         <div className="sm:flex sm:justify-center m-5 ">
+          <a target="_blank " href="https://www.wealthtrackpro.com">
            <Image 
             className="rounded-xl"
             height={300}
             width={300}
             objectFit='contain'
              src={wealthTrac} />
+             </a>
         </div>
    
       <div className="flex justify-center h-6 m-4">
-      <button className="border border-white w-24 sm:h-8 ">Full Site</button>
+      <button onClick={()=>{router.push('https://www.wealthtrackpro.com')}} className="border border-white w-24 sm:h-8 ">Full Site</button>
       </div>
      
       <div className="sm:flex sm:justify-center m-4">
