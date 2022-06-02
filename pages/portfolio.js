@@ -33,7 +33,7 @@ export default function Ppage(){
         </div>
    
       <div className="flex justify-center h-6 m-4">
-      <button onClick={()=>{router.push('https://www.wealthtrackpro.com')}} className="border border-white w-24 sm:h-8 ">Full Site</button>
+      <button target='_blank' onClick={()=>{window.open('https://www.wealthtrackpro.com')}}  className="border border-white w-24 sm:h-8 ">Full Site</button>
       </div>
      
       <div className="sm:flex sm:justify-center m-4">
