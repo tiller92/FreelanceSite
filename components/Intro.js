@@ -41,7 +41,7 @@ export default function Intro(){
       text-purple-500
        bg-white rounded-full
        p-1 m-3 w-36"
-     >Portfolio</button>
+     >Projects</button>
   
      </div>
      
