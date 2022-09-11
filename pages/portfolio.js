@@ -55,6 +55,7 @@ export default function Ppage(){
         </div>
     
         <div className="sm:flex sm:justify-center">
+        <a target="_blank " href="https://congress-stock-tracker.herokuapp.com/"></a>
            <Image 
            alt="congress stock image"
             className="rounded-xl"
