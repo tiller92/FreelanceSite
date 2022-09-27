@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import {FaCode} from 'react-icons/fa'
 export default function Sbtmr(){
-  const [iconSize,setSize] = useState(60)
+  const [iconSize,setSize] = useState(100)
   const [position, setPosition] = useState(45)
  
   return (
