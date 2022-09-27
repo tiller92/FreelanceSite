@@ -8,7 +8,7 @@ export default function Sbtmr(){
     <>
     <div className='sm:flex sm:justify-center sm:bg-violet-500 sm:bg-cover '>
     <div className='
-     sm:flex sm:justify-content-center
+     sm:flex
      sm:relative
        sm:invisible '>
     <FaCode color='white' className='m-2'  size={iconSize} />

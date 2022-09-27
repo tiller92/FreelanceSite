@@ -13,7 +13,7 @@ export default function Home() {
    <>
    <div className={style.home}>
     <Intro/>
-    <div>
+    <div className='sm:flex sm:justify-center'>
     <SmallBottomRightHome className='sm:invisible' />
     </div>
     </div>
