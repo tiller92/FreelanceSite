@@ -18,7 +18,7 @@ export default function Sbtmr(){
  
   return (
     <>
-    <div className='flex justify-center bg-violet-500'>
+    <div className='sm:flex sm:justify-center sm:bg-violet-500'>
     <div className='
      flex flex-col
      
