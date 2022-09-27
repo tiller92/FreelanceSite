@@ -11,7 +11,7 @@ export default function Sbtmr(){
      sm:flex
      sm:relative
        sm:invisible '>
-    <FaCode color='white' className='m-2'  size={iconSize} />
+    <FaCode color='white' className='sm:m-2 sm:flex sm:justify-center sm:relative '  size={iconSize} />
     </div>
     </div>
     </>
