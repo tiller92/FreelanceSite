@@ -23,29 +23,29 @@ export default function Sbtmr(){
      sm:flex sm:flex-row
      sm:relative
        sm:invisible '>
-    <IoLogoJavascript color='black' className='m-2' size={iconSize}/>
+    <IoLogoJavascript color='black' className='m-2 sm:flex' size={iconSize}/>
     <SiPython color='white' className='m-2' size={iconSize} />
     
 
-    <SiVercel color='black' className='m-2' size={iconSize}  />
-    <SiNextdotjs color='white' className='m-2' size={iconSize}  />
-    <SiReact color='black' className='m-2' size={iconSize} />
+    <SiVercel color='black' className='m-2 sm:flex' size={iconSize}  />
+    <SiNextdotjs color='white' className='m-2 sm:flex' size={iconSize}  />
+    <SiReact color='black' className='m-2 sm:flex' size={iconSize} />
 
 
-    <SiPostgresql color='white' className='m-2'  size={iconSize} />
+    <SiPostgresql color='white' className='m-2 sm:flex'  size={iconSize} />
    
  
-    <DiHeroku color='white' className='m-2' size={iconSize}  />
-    <SiPrisma color='black' className='m-2' size={iconSize}  />
+    <DiHeroku color='white' className='m-2 sm:flex' size={iconSize}  />
+    <SiPrisma color='black' className='m-2 sm:flex' size={iconSize}  />
 
 
 
-    <SiTailwindcss color='white' className='m-2' size={iconSize}  />
-    <BsBootstrap color='black' className='m-2' size={iconSize}  />
+    <SiTailwindcss color='white' className='m-2 sm:flex' size={iconSize}  />
+    <BsBootstrap color='black' className='m-2 sm:flex' size={iconSize}  />
 
 
-    <SiFlask color='white' className='m-2' size={iconSize}  />
-    <SiNodedotjs color='black' className='m-2'  size={iconSize} />
+    <SiFlask color='white' className='m-2 sm:flex' size={iconSize}  />
+    <SiNodedotjs color='black' className='m-2 sm:flex'  size={iconSize} />
     </div>
     </div>
     </>
