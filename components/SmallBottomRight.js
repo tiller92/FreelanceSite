@@ -7,7 +7,9 @@ export default function Sbtmr(){
   return (
     <>
     <div className='sm:flex sm:justify-center sm:bg-violet-500 sm:bg-cover '>
+    <div>
     <FaCode color='white' className='sm:m-2 '  size={iconSize} />
+    </div>
     </div>
     </>
 
