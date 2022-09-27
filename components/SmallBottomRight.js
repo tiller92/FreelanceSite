@@ -1,19 +1,7 @@
-import {SiNextdotjs} from 'react-icons/si'
-import {IoLogoJavascript} from 'react-icons/io'
-import {SiPrisma} from 'react-icons/si'
-import {SiPostgresql} from 'react-icons/si'
-import {SiReact} from 'react-icons/si'
-import {DiHeroku} from 'react-icons/di'
-import {SiNodedotjs} from 'react-icons/si'
-import {SiPython} from 'react-icons/si'
-import {SiFlask} from 'react-icons/si'
-import {BsBootstrap} from 'react-icons/bs'
-import {SiTailwindcss} from 'react-icons/si'
-import {SiVercel} from 'react-icons/si'
 import { useEffect, useState } from 'react'
-
+import {FaCode} from 'react-icons/fa'
 export default function Sbtmr(){
-  const [iconSize,setSize] = useState(40)
+  const [iconSize,setSize] = useState(60)
   const [position, setPosition] = useState(45)
  
   return (
@@ -23,29 +11,7 @@ export default function Sbtmr(){
      sm:flex sm:flex-row
      sm:relative
        sm:invisible '>
-    <IoLogoJavascript color='black' className='m-2 sm:flex sm:w-1/3' size={iconSize}/>
-    <SiPython color='white' className='m-2 sm:w-1/3' size={iconSize} />
-    
-
-    <SiVercel color='black' className='m-2 sm:flex sm:w-1/3' size={iconSize}  />
-    <SiNextdotjs color='white' className='m-2 sm:flex' size={iconSize}  />
-    <SiReact color='black' className='m-2 sm:flex' size={iconSize} />
-
-
-    <SiPostgresql color='white' className='m-2 sm:flex'  size={iconSize} />
-   
- 
-    <DiHeroku color='white' className='m-2 sm:flex' size={iconSize}  />
-    <SiPrisma color='black' className='m-2 sm:flex' size={iconSize}  />
-
-
-
-    <SiTailwindcss color='white' className='m-2 sm:flex' size={iconSize}  />
-    <BsBootstrap color='black' className='m-2 sm:flex' size={iconSize}  />
-
-
-    <SiFlask color='white' className='m-2 sm:flex' size={iconSize}  />
-    <SiNodedotjs color='black' className='m-2 sm:flex'  size={iconSize} />
+    <FaCode color='black' className='m-2 sm:flex sm:justify-center'  size={iconSize} />
     </div>
     </div>
     </>
