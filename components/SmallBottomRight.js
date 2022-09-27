@@ -6,7 +6,7 @@ export default function Sbtmr(){
  
   return (
     <>
-    <div className='sm:flex sm:justify-center sm:bg-violet-500 sm:bg-cover '>
+    <div className='sm:flex sm:relative sm:bg-violet-500 sm:bg-cover '>
     <div className='
      sm:flex
      sm:relative
