@@ -20,9 +20,9 @@ export default function Sbtmr(){
     <>
     <div className='sm:flex sm:justify-center sm:bg-violet-500'>
     <div className='
-     flex flex-col
+     sm:flex flex-col
      
-     relative
+     sm:relative
        sm:invisible '>
     <IoLogoJavascript color='black' className='m-2' size={iconSize}/>
     <SiPython color='white' className='m-2' size={iconSize} />
