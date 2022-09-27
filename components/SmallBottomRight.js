@@ -21,7 +21,6 @@ export default function Sbtmr(){
     <div className='sm:flex sm:justify-center sm:bg-violet-500'>
     <div className='
      sm:flex flex-col
-     
      sm:relative
        sm:invisible '>
     <IoLogoJavascript color='black' className='m-2' size={iconSize}/>
@@ -36,8 +35,8 @@ export default function Sbtmr(){
     <SiPostgresql color='white' className='m-2'  size={iconSize} />
     </div>
     <div className='
-     flex flex-col
-     relative
+     sm:flex flex-col
+     sm:relative
        sm:invisible '>
     <DiHeroku color='white' className='m-2' size={iconSize}  />
     <SiPrisma color='black' className='m-2' size={iconSize}  />
