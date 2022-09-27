@@ -33,11 +33,8 @@ export default function Sbtmr(){
 
 
     <SiPostgresql color='white' className='m-2'  size={iconSize} />
-    </div>
-    <div className='
-     sm:flex flex-col
-     sm:relative
-       sm:invisible '>
+   
+ 
     <DiHeroku color='white' className='m-2' size={iconSize}  />
     <SiPrisma color='black' className='m-2' size={iconSize}  />
 
