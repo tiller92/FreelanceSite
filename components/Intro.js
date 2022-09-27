@@ -28,7 +28,7 @@ export default function Intro(){
     font-sans-apple-system
     p-2
     "
-    >Software Developer</h1>
+    >Software Engineer</h1>
     <div className="flex">
     <a href="https://github.com/tiller92" target='_blank' rel="noreferrer" > <AiFillGithub className="m-3" size={40} color="white"/></a>
   
