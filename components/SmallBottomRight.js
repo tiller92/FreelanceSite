@@ -18,9 +18,9 @@ export default function Sbtmr(){
  
   return (
     <>
-    <div className='sm:flex sm:justify-center sm:bg-violet-500 bg-cover'>
+    <div className='sm:flex sm:justify-center sm:bg-violet-500 sm:bg-cover '>
     <div className='
-     sm:flex 
+     sm:flex sm:flex-row
      sm:relative
        sm:invisible '>
     <IoLogoJavascript color='black' className='m-2' size={iconSize}/>
