@@ -23,11 +23,11 @@ export default function Sbtmr(){
      sm:flex sm:flex-row
      sm:relative
        sm:invisible '>
-    <IoLogoJavascript color='black' className='m-2 sm:flex' size={iconSize}/>
-    <SiPython color='white' className='m-2' size={iconSize} />
+    <IoLogoJavascript color='black' className='m-2 sm:flex sm:w-1/3' size={iconSize}/>
+    <SiPython color='white' className='m-2 sm:w-1/3' size={iconSize} />
     
 
-    <SiVercel color='black' className='m-2 sm:flex' size={iconSize}  />
+    <SiVercel color='black' className='m-2 sm:flex sm:w-1/3' size={iconSize}  />
     <SiNextdotjs color='white' className='m-2 sm:flex' size={iconSize}  />
     <SiReact color='black' className='m-2 sm:flex' size={iconSize} />
 
