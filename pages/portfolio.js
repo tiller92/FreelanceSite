@@ -40,7 +40,7 @@ export default function Ppage(){
       </div>
      
       <div className="sm:flex sm:justify-center m-4">
-      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/WealthTrackPro-Public')}}   className=""><AiFillGithub size={40} /></button>
+      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/wealthTrackPublic')}}   className=""><AiFillGithub size={40} /></button>
       </div>
      
       <div className="sm:flex sm:justify-evenly">
