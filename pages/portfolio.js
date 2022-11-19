@@ -38,7 +38,7 @@ export default function Ppage(){
         </div>
       <div className="flex justify-center h-7 m-3 mb-8">
       <button  target='_blank' onClick={()=>{window.open('https://www.wealthtrackpro.com')}}  className="border rounded-full border-white w-24 sm:h-8 bg-slate-800 text-slate-50 mr-4">Full Site</button>
-      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/wealthTrackPublic')}}   className=""><AiFillGithub size={35} /></button>
+      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/WealthTrackProPublicRepo')}}   className=""><AiFillGithub size={35} /></button>
       </div>
      
       <div className="sm:flex sm:justify-evenly sm:border-b-8 border-dashed">
