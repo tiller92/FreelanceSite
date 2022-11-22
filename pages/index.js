@@ -6,11 +6,10 @@ import BottomRightHome from '../components/BottomRightHome'
 import SmallBottomRightHome from '../components/SmallBottomRight'
 import SpinningIcon from '../components/SpinningIcon'
 
-
-
 export default function Home() {
   return (
    <>
+ 
    <div className={style.home}>
     <Intro/>
     <SmallBottomRightHome className='sm:invisible' />

@@ -1,8 +1,8 @@
 import Image from "next/image"
-import wealthTrac3 from '../public/wealthtrac3.png'
-import staffingAid from '../public/staffingAid.png'
-import congressStock from '../public/congress-stock.jpg'
-import crates from '../public/crates.png'
+import wealthTrac3 from '../public/projectImages/wealthtrac3.png'
+import staffingAid from '../public/projectImages/staffingAid.png'
+import congressStock from '../public/projectImages/congress-stock.jpg'
+import crates from '../public/projectImages/crates.png'
 import {AiFillGithub} from "react-icons/ai"
 import { useRouter } from "next/router"
 import {AiFillHome} from 'react-icons/ai'
