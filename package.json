@@ -1,6 +1,6 @@
 {
     "name": "portfolio-beta",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+       
         "@emotion/react": "^11.9.0",
         "@emotion/styled": "^11.8.1",
         "@mui/material": "^5.8.1",

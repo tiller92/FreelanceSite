@@ -1,8 +1,8 @@
 import Image from "next/image"
-import wealthTrac3 from '../public/projectImages/wealthtrac3.png'
-import staffingAid from '../public/projectImages/staffingAid.png'
-import congressStock from '../public/projectImages/congress-stock.jpg'
-import crates from '../public/projectImages/crates.png'
+import wealthTrac3 from '../public/wealthtrac3.png'
+import staffingAid from '../public/staffingAid.png'
+import congressStock from '../public/congress-stock.jpg'
+import crates from '../public/crates.png'
 import {AiFillGithub} from "react-icons/ai"
 import { useRouter } from "next/router"
 import {AiFillHome} from 'react-icons/ai'
@@ -38,7 +38,7 @@ export default function Ppage(){
         </div>
       <div className="flex justify-center h-7 m-3 mb-8">
       <button  target='_blank' onClick={()=>{window.open('https://www.wealthtrackpro.com')}}  className="border rounded-full border-white w-24 sm:h-8 bg-slate-800 text-slate-50 mr-4">Full Site</button>
-      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/WealthTrackProPublicRepo')}}   className=""><AiFillGithub size={35} /></button>
+      <button target='_blank' onClick={()=>{window.open('https://github.com/tiller92/wealthTrackPublic')}}   className=""><AiFillGithub size={35} /></button>
       </div>
      
       <div className="sm:flex sm:justify-evenly sm:border-b-8 border-dashed">

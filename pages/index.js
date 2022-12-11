@@ -9,7 +9,10 @@ import SpinningIcon from '../components/SpinningIcon'
 export default function Home() {
   return (
    <>
- 
+   <Head>
+   <title>Ryan Tiller</title>
+   <meta name="description" content="Columbus Ohio Software Engineer"/>
+	</Head>
    <div className={style.home}>
     <Intro/>
     <SmallBottomRightHome className='sm:invisible' />
