@@ -12,9 +12,9 @@ export default function Ppage(){
   const router = useRouter()
   return (
     <>
-  <div className="bg-slate-800 min-h-screen">
+  <div className="md:bg-slate-800 min-h-screen">
     <div className="flex justify-center">
-  <div className="w-2/4 h-full bg-slate-100 shadow-xl shadow-slate-300 min-h-screen ">
+  <div className="md:w-2/4  h-full bg-slate-100 md:shadow-xl md:shadow-slate-300 min-h-screen ">
     <button className="relatvie m-5 sm:absolute" 
       onClick={()=>{
         router.push('/')
@@ -71,7 +71,7 @@ export default function Ppage(){
 
 
       <div className="sm:flex sm:justify-evenly sm:border-b-8 border-dashed">
-        <ul className="flex flex-col justify-evenly mb-4">
+        <ul className="flex flex-col justify-center mb-4">
         <li className="flex justify-center"> CLI tool</li>
         <li className="flex justify-center"> Rust Crate</li>
         <li className="flex justify-center"> Uses recursion to display and search directories</li>
